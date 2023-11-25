@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="seats.css">
+    <title>Seat Selection and Booking - Bus Reservation System</title>
+</head>
+<body>
+    <header>
+        <h1>Seat Selection and Booking</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Buses</a></li>
+                <li><a href="#">Routes</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <section class="seat-selection">
+            <h2>Select Your Seats</h2>
+
+            <div class="bus-layout">
+                <!-- Seat layout and selection here -->
+            </div>
+            <button id="book-button" disabled>Book Seats</button>
+        </section>
+
+        <section class="booking-details">
+            <h2>Booking Details</h2>
+            <ul id="selected-seats">
+                <!-- Selected seats will be displayed here -->
+            </ul>
+            <p>Total Price: $<span id="total-price">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Bus Reservation System</p>
+    </footer>
+    <script src="seatf.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with a background color, text color, and navigation links */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the content area with padding and a white background */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer with a background color, text color, and center the text */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* Add this to your existing CSS */
+
+/* Style dashboard statistics */
+.dashboard {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.dashboard h2 {
+    margin-bottom: 10px;
+}
+
+.dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat {
+    flex-basis: calc(33.33% - 10px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style sections for bus management, route management, bookings, and settings */
+.manage-buses,
+.manage-routes,
+.bookings,
+.settings {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    .dashboard-stats {
+        flex-direction: column;
+    }
+    
+    .stat {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}
